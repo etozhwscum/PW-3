@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+.catalogue_list ul{
+	list-style: none;
+}
+input{
+	border-radius: 5px;
+	width: 200px;
+	height: 50px;
+	border: 3px solid black;
+	outline: none;
+	text-align: center;
+	background-color: #f7f7f7;
+}
+input::placeholder{
+	color:#b3b3b3;
+}
+input:hover{
+	border: 3px solid #297cf0;
+}
+button{
+	width: 100px;
+	height: 40px;
+	border: none;
+	background-color: black;
+	border-radius: 5px;
+	transition: .2s all ease;
+}
+button:hover{
+	transform: scale(1.2);
+}
+button p{
+	color:white;
+}
+textarea{
+	border-radius: 5px;
+	border: 3px solid black;
+	outline: none;
+	text-align: center;
+	background-color: #f7f7f7;
+}
+textarea:hover{
+	border: 3px solid #297cf0;
+}
+.msg{
+	margin: auto;
+	display: block;
+	width: 120px;
+	border: 2px solid #F19641;
+	border-radius: 3px;
+	padding: 10px;
+}
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0;
+}
+a{
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	transition: .2s all ease;
+}
+a:hover{
+	color: #297cf0;
+	transform: scale(1.4);
+}
+.header{
+	position: fixed;
+	z-index: 101;
+	display: flex;
+	width: 100%;
+	height: 137px;
+	background-color: #FFFFFF;
+	justify-content: center;
+	align-items: center;
+	outline: 1px solid #F3F3F3;
+}
+header{
+	
+	display: flex;
+	width: 1577px;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer{
+	display: flex;
+	width: 100%;
+	height: 150px;
+	justify-content: center;
+	align-items: center;
+	outline: 1px solid #F3F3F3;
+	background-color: #FFFFFF;
+}
+footer{
+	display: flex;
+	width: 1577px;
+	justify-content: space-between;
+	align-items: center;
+}
+.vacancies{
+	text-align: center;
+}
+.vacancyFormCreate{
+	width: 100%;
+	text-align: center;
+}
+.nextLink{
+	text-align: center;
+}
+.title{
+	text-align: center;
+}
+.comp_title h1{
+	text-align: center;
+}
+.companions{
+	margin: auto;
+	display: flex;
+	width: 1577px;
+	justify-content: space-between;
+	align-items: center;
+}
+.login{
+	display: block;
+	margin: auto;
+	text-align: center;
+
+}
+.registration{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+.about_text h1{
+	text-align: center;
+}
+.about_text{
+	margin: auto;
+	display: block;
+	width: 800px;
+	text-align: justify;
+}
+.news h1{
+	text-align: center;
+}
+.user{
+	text-align: center;
+}
+.newsFormCreate{
+	text-align: center;
+}
+.news{
+	text-align: center;
+}
